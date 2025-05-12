@@ -9,7 +9,7 @@ public class Student extends User {
         super(name, age);
     }
 
-    public void enroll(String course) {
+    public void enroll(Course course) {
         courses.add(course);
     }
 
